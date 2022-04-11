@@ -11,14 +11,13 @@
 
 3. Example dataset: han.csv 
     This dataset is obtained from a two-stage GWAS, which is studying if the SNP rs3827440 is associated with the Graves' disease.
-    The data contain four columns. The first column is the phenotype, the second column is the genotype, the third column is the sex information, and the last column represents the stage, with 0 being 
-    stage Ⅰ and 1 being stage Ⅱ.
+    The data contain four columns. The first column is the phenotype, the second column is the genotype, the third column is the sex information, and the last column represents the stage, with 0 being stage Ⅰ and 1 being stage Ⅱ.
 
 3. Example code
 
 ## Read the han data
-     data <- read.csv("han.csv")
+   data <- read.csv("han.csv")
 
 ## run the functon: XCMAX4
-    source ("XCAMX4.R")
-     XCMAX4(data)
+   source ("XCAMX4.R")
+   XCMAX4(data)
